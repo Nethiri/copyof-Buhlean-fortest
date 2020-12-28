@@ -5,9 +5,9 @@ version: 3.0.0
 
 comment: Both an embedded youtube player and a transcript download and edit tool designed to assist presentation teaching in university.
 
-script: https://cdn.jsdelivr.net/gh/Buhlean/LiaTranscriptLiveEdit/src/Module.min.js
-script: https://cdn.jsdelivr.net/gh/Buhlean/LiaTranscriptLiveEdit/src/ElmModule.min.js
-link: https://cdn.jsdelivr.net/gh/Buhlean/LiaTranscriptLiveEdit/src/style.css
+script: https://cdn.jsdelivr.net/gh/Nethiri/copyof-Buhlean-fortest/src/Module.min.js
+script: https://cdn.jsdelivr.net/gh/Nethiri/copyof-Buhlean-fortest/src/ElmModule.min.js
+link: https://cdn.jsdelivr.net/gh/Nethiri/copyof-Buhlean-fortest/src/style.css
 
 
 @RunTranscriptLE
@@ -28,7 +28,7 @@ link: https://cdn.jsdelivr.net/gh/Buhlean/LiaTranscriptLiveEdit/src/style.css
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Buhlean/LiaTranscriptLiveEdit/master/Module.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Nethiri/copyof-Buhlean-fortest/master/Module.md)
 
 ### Module TranscriptLiveEdit
 
