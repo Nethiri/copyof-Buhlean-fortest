@@ -405,7 +405,7 @@ figure_out_which_from_these options =
     --only_english = List.filter (\o -> List.member (String.toLower o.lang_code) acceptable_language_codes) (Debug.log "ELM-parsed: " options) 
     only_english = List.filter (\o -> List.member (String.toLower o.lang_code) acceptable_language_codes) (options) 
     ordered =
-      case findElem (\o -> o.lang_code == "en") only_english of
+      case findElem (\o -> o.lang_code == "de") only_english of
         Nothing -> only_english
         Just (en, rest) -> en::rest
   --in case (Debug.log "ELM-oneleft: " only_english) of 
