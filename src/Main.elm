@@ -11,7 +11,7 @@ import XmlParser exposing (Node(..))
 import String.Mark as Mark
 import File.Download as Download
 
---import Debug
+import Debug
 
 main 
   = Browser.element
