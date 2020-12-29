@@ -148,10 +148,10 @@ update msg model =
                   case figure_out_which_from_these options of
                     Unavailable                           -> ({model | state = Load_Failed }        ,Cmd.none)
                     No_Name language_code                 -> 
-                      ( model, Http.get { url = "https://video.google.com/timedtext?v=" ++ model.current_id ++ "&lang=" ++ language_code
+                      ( model, Http.get { url = "https://video.google.com/timedtext?v=" ++ model.current_id ++ "&lang=" ++ "de"
                       , expect = Http.expectString GotCues })
                     Both_Custom language_code name_option -> 
-                      ( model, Http.get { url = "https://video.google.com/timedtext?v=" ++ model.current_id ++ "&lang=" ++ language_code ++ "&name=" ++ name_option
+                      ( model, Http.get { url = "https://video.google.com/timedtext?v=" ++ model.current_id ++ "&lang=" ++ "de" ++ "&name=" ++ name_option
                       , expect = Http.expectString GotCues })
             Err _ -> ({model | state = Load_Failed }, Cmd.none)
         _ -> doNothing model
