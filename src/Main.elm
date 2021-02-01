@@ -1,3 +1,4 @@
+port module Main exposing( .. )
 import Browser
 import Html exposing (Html, text, div, input, button, span, b, a)
 import Html.Lazy exposing (lazy)
